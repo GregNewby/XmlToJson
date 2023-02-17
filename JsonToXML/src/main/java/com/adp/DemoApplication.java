@@ -56,7 +56,7 @@ public class DemoApplication {
 	
 	public static void XmlToJson(String filename) throws IOException {
 		
-		String data=	FileUtils.readFileToString(new File(filename), "UTF-8");
+		String data = FileUtils.readFileToString(new File(filename), "UTF-8");
 		XmlMapper xmlMapper = new XmlMapper();
 		//JsonNode jnode = xmlMapper.readTree(data.getBytes());
 		
